@@ -14,7 +14,7 @@ export const FooterMain = () => {
             <div className='w-full h-1 bg-gray-400 mt-24'></div>
             <div className='md:flex sm:hidden justify-between mt-4 max-w-[1200px] mx-auto'>
                 <p className='text-3xl text-gray-100'>Kishor Kolekar</p>
-                <ul className='flex gap-4 text-gray-100 text-xl '>
+                <ul className='flex gap-4 text-gray-100 text-xl xs:hidden lg:block sm:visible'>
                     {links.map((items, index) => {
                         return <li key={index}>
                             <a href="#" className='hover:text-white transition-all duration-500 cursor-pointer'>{items.link}</a>
@@ -22,7 +22,7 @@ export const FooterMain = () => {
                     })}
                 </ul>
             </div>
-            <p className='max-w-[1200px] mx-auto text-right mt-2 text-sm text-gray-400'>© 2025 Kishor | All Rights Reserved.
+            <p className='max-w-[1200px] mx-auto text-right mt-2 text-sm text-gray-400 xs:hidden lg:block'>© 2025 Kishor | All Rights Reserved.
             </p>
         </div>
     )

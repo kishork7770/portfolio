@@ -33,7 +33,7 @@ const NavbarMain = () => {
     // }, []);
 
     return (
-        <nav className="nav max-w-[1300px] mx-auto px-4 w-full fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 lg:mt-2 xs:mt-0 xs:border-b-1 md:border-none  lg:border-none backdrop-blur-lg drop-shadow-lg ">
+        <nav className="nav max-w-[1300px] mx-auto px-4 w-full fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 lg:mt-2  xs:border-b-1 md:border-none  lg:border-none backdrop-blur-lg drop-shadow-lg ">
             <div div className='flex justify-between w-full max-w-[1200px] mx-auto lg:bg-gradient-to-rfrom-gray-900to-black items-center p-6 rounded-r-full rounded-l-full border-[0.5px] border-orange xs:bg-none xs:border-none  sm:border-[0px] md:bg-gradient-to-r from-gray-900 to-black md:items-center md:p-6 md:rounded-r-full md:rounded-l-full md:border-0 md:border-orange' >
                 <NavbarLogo />
                 <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block` && `${menuOpen ? "xs:block" : "xs:hidden"} lg:block`}>
