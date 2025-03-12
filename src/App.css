@@ -1,0 +1,14 @@
+@import "tailwindcss";
+body {
+  background-image: linear-gradient(#626965, black) !important;
+  scrollbar-width: none;
+}
+@media (max-width: 320px) {
+  body {
+    height: 120vh;
+  }
+}
+@theme {
+  --breakpoint-xs: 20rem;
+  --drop-shadow-lg:0px 35px 35px rgba(94,206,220,0.60)
+}

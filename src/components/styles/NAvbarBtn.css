@@ -1,0 +1,17 @@
+.hereme {
+  animation: myfirst 5s infinite alternate;
+  transition: background-image 0.5s ease-in-out, image 0.5s ease-in-out;
+  box-shadow: whitesmoke !important;
+}
+
+@keyframes myfirst {
+  0% {
+    background-image: linear-gradient(to-right grey, black);
+  }
+  50% {
+    background-image: linear-gradient(black, grey);
+  }
+  100% {
+    background-image: linear-gradient(to-right grey, black);
+  }
+}
