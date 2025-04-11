@@ -6,23 +6,23 @@ import { fadeIn } from '../../framerMotion/variants'
 
 const projects = [
   {
-    name: 'Project 1',
-    year: 'Mar2024',
+    name: 'PATO Restaurant',
+    year: 'Mar-2024',
     align: 'right',
-    image: 'pics/website-img-1.jpg',
-    link: '#'
+    image: 'pics/pato.jpg',
+    link: 'https://pato-restaurant-teal.vercel.app/'
   },
   {
-    name: 'Project 2',
-    year: 'June2024',
+    name: 'CRM Project(front-end)',
+    year: 'June-2024',
     align: 'left',
-    image: 'pics/website-img-2.webp',
-    link: '#'
+    image: 'pics/crm.png',
+    link: 'https://github.com/kishork7770/CRM_PROJECT'
   }, {
-    name: 'Project 1',
-    year: 'Mar2024',
+    name: 'Portfolio',
+    year: 'DEC-2024',
     align: 'right',
-    image: 'pics/website-img-3.jpg',
+    image: 'pics/Port.png',
     link: '#'
   },
 ];
