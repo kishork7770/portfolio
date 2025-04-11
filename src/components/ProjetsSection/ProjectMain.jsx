@@ -23,7 +23,7 @@ const projects = [
     year: 'DEC-2024',
     align: 'right',
     image: 'pics/Port.png',
-    link: '#'
+    link: 'https://github.com/kishork7770/portfolio'
   },
 ];
 export const ProjectMain = () => {
